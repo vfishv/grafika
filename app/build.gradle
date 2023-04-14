@@ -17,8 +17,10 @@ apply plugin : 'com.android.application'
 
 android {
   compileSdkVersion 33
+  namespace "com.android.grafika"
+
   defaultConfig {
-    applicationId "com.google.grafika"
+    applicationId "com.android.grafika"
     minSdkVersion 21
     targetSdkVersion 28
   }
